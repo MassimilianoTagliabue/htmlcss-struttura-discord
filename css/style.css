@@ -17,19 +17,32 @@
     --bg-salmon: #f08080;
     --bg-seagreen: #20b2aa;
     --bg-darkgray: #23272a;
-    --height-block:400px;
-    --height-cont:300px;
-    --height-padd:50px;
-    
+    --height-block: 400px;
+    --height-cont: 300px;
+    --height-padd: 50px;
+
 }
 
 /* COMMON */
+.container-header {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
     padding: 10px;
+    display: flex;
+
+   
+
 }
+
 
 .center {
     display: flex;
@@ -42,8 +55,8 @@
     justify-content: space-between;
 }
 
-.end{
-   text-align: end;
+.end {
+    text-align: end;
 }
 
 
@@ -53,7 +66,8 @@
     /* DEBUG */
     border: 2px dashed black;
 }
-.col-30{
+
+.col-30 {
     width: 30%;
 
     /* DEBUG */
@@ -67,7 +81,7 @@
     border: 2px dashed black;
 }
 
-.col-70{
+.col-70 {
     width: 70%;
 
     /* DEBUG */
@@ -75,7 +89,7 @@
 }
 
 
-.col-50 div{
+.col-50 div {
     padding: 0 5px;
     /* border: 2px dashed black; */
 }
@@ -92,8 +106,8 @@
 
 .navbar {
     background-color: var(--bg-orange);
-    
-padding: 10px;
+
+
 
     /* DEBUG */
     /* border: 2px solid red; */
@@ -101,7 +115,7 @@ padding: 10px;
 
 /* MAIN */
 
-.bg-blue{
+.bg-blue {
     background-color: #00008b;
     padding: var(--height-padd);
 
@@ -111,30 +125,60 @@ padding: 10px;
 
 }
 
-.pink-square{
+.pink-square {
     background-color: #ee82ee;
 
     width: 60%;
     max-width: 800px;
     margin: 0 auto;
-    
 
-     /* DEBUG */
+
+    /* DEBUG */
     height: var(--height-cont);
     /* border: 2px solid black; */
 }
 
-.bg-white{
+.bg-white {
     padding: var(--height-padd);
     /* DEBUG */
     height: var(--height-block);
     border: 2px solid black;
 }
-.bg-skyblue{
+
+.bg-skyblue {
     background-color: var(--bg-skyblue);
 
     /* DEBUG */
     height: var(--height-cont);
+}
+
+.bg-lightpink {
+    background-color: var(--bg-lightpink);
+
+    /* DEBUG */
+    height: var(--height-cont);
+}
+
+.bg-gray {
+    background-color: var(--bg-gray);
+    padding: var(--height-padd);
+    /* DEBUG */
+    height: var(--height-block);
+    border: 2px solid black;
+}
+
+.bigger{
+    height: 1000px;
+}
+
+.bg-green{
+    background-color: var(--bg-green);
+    padding: 100px;
+    width: 100%;
+    
+    /* DEBUG */
+    height: 800px;
+    border: 2px solid black;
 }
 
 /* FOOTER */
