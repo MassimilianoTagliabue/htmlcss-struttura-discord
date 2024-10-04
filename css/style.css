@@ -1,0 +1,87 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-lightblue: #add8e6;
+    --bg-orange: #daa520;
+    --bg-blue: #00008b;
+    --bg-pink: #ee82ee;
+    --bg-skyblue: #1e90ff;
+    --bg-lightpink: #ffc0cb;
+    --bg-gray: #d3d3d3;
+    --bg-green: #228b22;
+    --bg-salmon: #f08080;
+    --bg-seagreen: #20b2aa;
+    --bg-darkgray: #23272a;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+
+/* HEADER */
+
+.header {
+    background-color: var(--bg-lightblue);
+
+    /* DEBUG */
+    height: 50px;
+    border: 2px solid black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: var(--bg-orange);
+    display: flex;
+
+
+    /* DEBUG */
+    /* border: 2px solid red; */
+}
+
+.col-25 {
+    width: 25%;
+
+    /* DEBUG */
+    border: 2px dashed black;
+}
+
+.col-50 {
+    width: 50%;
+
+    /* DEBUG */
+    border: 2px dashed black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.col-50 div{
+    padding: 0 5px;
+}
+
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
